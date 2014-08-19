@@ -92,7 +92,7 @@ def F_upwind(F): # Upwinding scheme
     return F_upwind
 
 def solver(a_U,a_D,a_P,b):
-    nz=np.size(b)
+    nz = np.size(b)
     
     Diags = (np.append([a_U,-a_P],[a_D],axis=0))
     cols=np.array([1, 0, -1])
@@ -528,7 +528,7 @@ def porosity(rho_prof):
 def diffusivity(rho_co, por_co, por_tot, por_cl, por_op, z_co, LIZ, rhoprof = None): #rhoprof is density profile
         
     if rhoprof is None:
-        rhoprof=rhoHL
+        rhoprof = rhoHL
     
     ## Constants
     d_eddy_sc=d_0 #Eddy diffusivity in the convective zone

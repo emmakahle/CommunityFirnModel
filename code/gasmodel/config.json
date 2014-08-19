@@ -1,0 +1,18 @@
+{
+   "rho_i": 917.0,
+   "R": 8.314,
+   "M_air": 28.97e-3,
+   "rho_bco": 815.,
+   "P_0": 1.0132e5,
+   "T_0": 275.15,
+   "sPerYear": 31557600,
+   "depth": 120.,
+   "ad_method_options": ["ice_vel", "Christo"],
+   "ad_method": "ice_vel"
+   "measurements": "on",
+   "sitechoice_options": ["SCENARIO", "NEEM", "WAIS"],
+   "sitechoice": "SCENARIO"
+   "gaschoice_options": ["CO2", "CH4", "SF6", "d15N2"],
+   "gaschoice": "CO2"
+   "g": 9.8,
+}      
